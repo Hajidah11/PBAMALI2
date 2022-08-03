@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FLORIST.CO</title>
+	<style type="text/css">
+		.header {
+			border-style: groove;
+			width: 1024px;
+			height: 300px;
+			border-color: pink;
+			margin-left: 12%;
+		}
+		.content {
+			border-style: groove;
+			width: 400px;
+			height: 100px;
+			padding-top: 0px;
+			text-align: center;
+			margin-top: 20px;
+			margin-left: 33%;
+			padding-bottom: 90px;
+			border-color: pink;
+			background-color: #b8cfec;
+			border-radius: 20px;
+		}
+		input {
+			margin-top: 20px;
+			padding: 5px;
+			cursor: pointer;
+		}
+        .footer {
+        	border-top: groove;
+        	margin-top: 20px;
+        	padding-top: 10px;
+        	font-size: 20;
+        	border-color: pink;
+        	background-image: #b8cfec;
+        	color: #ffdfd3;
+        }
+        body {
+        	background-image: url(latar.jpg);
+        	background-size: 50%;
+        }
+        .text {
+        	text-align: center;
+        	color: #ffdfd3;
+        	text-shadow: 2px 2px whitesmoke;
+        }
+        #pass:hover {
+            background-color: pink;
+        }
+        .content a {
+        	text-decoration: none;
+        }
+        .content input {
+        	background-color: pink;
+        }
+	</style>
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+    	<img src="Florist.jpg">
+    </div>
+    <div class="text">
+    	<h1>FLORIST.CO</h1>
+    </div>
+    <!--content-->
+    <div class="content">
+    	USERNAME : <input type="text" name="username" placeholder="username"><br>
+    	PASSWORD : <input type="password" name="password" placeholder="password"><br>
+    	<input type="submit" value="LOG IN" id="pass"><br>
+        <label>don't have account?</label><a href="signup.html">sign up</a>
+    </div>
+    <!--footer-->
+    <div class="footer">
+    	<marquee direction="right">
+    	FLORIST.CO&copy;2022
+        </marquee>
+    </div>
+</body>
+</html>
